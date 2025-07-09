@@ -1,0 +1,39 @@
+body, ::before, ::after, * {
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+    color: orangered;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 4rem;
+    font-family: monospace;
+    font-size: 18px;
+}
+
+button {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+button:hover {
+    background-color: aquamarine;
+}
+
+.choices {
+    display: flex;
+    column-gap: 4rem;
+}
+
+#result {
+    font-size: 2rem;
+    font-weight: bold;
+}
